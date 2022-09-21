@@ -1,0 +1,244 @@
+/*INICIO*/
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 4%;
+    margin: 0;
+    font-size: 150%;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: lightseagreen;
+}
+.logo{
+    width: 170px;
+    height: 80px;
+}
+body{
+    background-color: antiquewhite;
+}
+/*CUERPO*/
+/*INDEX*/
+.titulo {
+    background-image: url(../img/taller-mecanico1.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+.info {
+    font-family: 'Roboto', sans-serif;
+    border: solid;
+    padding-top: 5%;
+    margin-left: 3%;
+    margin-right: 60%;
+    text-align: center;
+}
+.video{
+    margin-left: 130%;
+}
+/*NOSOTROS*/
+.nosotros__trabajos{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "nosotros" "item-1" "item-2"
+    "nosotros" "item-3" "item-4";
+}
+.nosotros{
+    font-family: 'Roboto', sans-serif;
+    border: solid;
+    margin-left: 5%;
+    padding: 5%;
+    margin-right: 60%;
+}
+.trabajos{
+    margin-left: 50%;
+}
+/*SERVICIOS*/
+.titulo__service{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.service1{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+.service2{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+/*SEGUROS*/
+.seguros{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.seguros1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.seguros2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+/*CONTACTO*/
+.contacto{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.ubicacion1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.ubicacion2{
+    margin-left: 10%;
+    margin-right: 25%;
+    font-family: 'Roboto', sans-serif;
+}
+.hoy{
+    text-align: center;
+    margin-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+.formulario{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/*FOOTER*/
+footer{
+    background-color: rgb(50, 50, 50);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+}
+.pie__de__pagina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly
+}
+.trayectoria{
+    margin-left: 5%;
+    margin-right: 10%;
+    padding: 5% 5% 5% 0%;
+    color: white;
+}
+.servicios{
+    margin-right: 10%;
+    padding: 5% 5% 5% 0%;
+    color: white;
+}
+.visitanos{
+    padding: 5% 5% 5% 0%;
+    margin-right: 5%;
+    color: white;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    background-color: lightslategray;
+    padding: 4%;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+
+
+.titulo__service{
+    padding: 3%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+figcaption{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 110%;
+}
+
+
+<div class="titulo__service">
+            <h1>¿QUÉ SERVICIO NECESITAS?</h1>
+        </div>
+        <div class="service1">
+            <figure>
+                <img class="imagen__service" src="../img/mecanica general.png" alt="llave y martillo">
+            </figure>
+            <figcaption>
+            Se realiza cambios de correas, tren delantero, patas de motor, cuerpo mariposa, cambios de bujías, cables de bujías, bobinas, zonda lamda, inyectores, reparación de medio motor y motor completo.
+            </figcaption>
+            <figure>
+                <img class="imagen__service" src="../img/revicion del automovil.png" alt="pizarra">
+            </figure>
+            <figcaption>
+            Se realiza una revisión general del vehículo, con un scanner automotriz de primera calidad, y se entrega al cliente el detalle completo del trabajo realizado.
+            </figcaption>
+            <figure>
+                <img class="imagen__service" src="../img/revision de aceite-frenos.png" alt="disco de freno">
+            </figure>
+            <figcaption>
+            Se realiza la revisión de la calidad del aceite y filtros, se comprueban la eficacia de los frenos.
+            </figcaption>
+        </div>
+        <div class="service2">
+            <figure>
+                <img class="imagen__service" src="../img/electricidad general.jpg" alt="lampara">
+            </figure>
+            <figcaption>
+            Cambio de luces, alarmas, modulos bci, ecus, luces de giro, red can, multiplexados, audio del automóvil.
+            </figcaption>
+            <figure>
+                <img class="imagen__service" src="../img/cambio de bateria.jpg" alt="bateria">
+            </figure>
+            <figcaption>
+            Se realiza la comprobación de la batería y si esta desgastada se realiza el cambio de la misma con marcas de excelente calidad.
+            </figcaption>
+            <figure>
+                <img class="imagen__service" src="../img/servicios de chapa y pintura.png" alt="pistola">
+            </figure>
+            <figcaption>
+            Reparación de paneles, cambio de paneles, retoques, detailing completo, limpieza de tapizados, nutridor de cueros, regeneración de faros, regeneración de calidad de plásticos.
+            </figcaption>
+        </div>
